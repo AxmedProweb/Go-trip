@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.logo {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+header nav {
+    background-color: #3E8989;
+    color: white;
+    padding: 36px 0;
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.navigation ul li {
+    font-size: 16px;
+    font-weight: 500 px;
+    line-height: 18.96px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    padding: 7px 6px;
+    transition: all 0, 5s ease;
+}
+
+.list:hover {
+    background-color: white;
+    color: gold;
+    transform: scale(1);
+}
+
+.search {
+   display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.search input {
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+}
+
+.search button {
+    border: none;
+    padding: 0 14px;
+    background-color: #295E5E;
+    color: white;
+}
+
+
+
+.logo-1 {
+    background-image: url(./img/pic.png);
+    min-height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    gap: 20px;
+}
+
+.logo-1 h1 {
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 94.8px;
+
+
+}
+
+.logo-1 h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47.4px;
+    padding-bottom: 50px;
+}
+
+.logo-1 button {
+    background-color: #B4436C;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    width: 200px;
+    height: 50px;
+    top: 562px;
+    left: 620px;
+}
+
+.btn {
+    padding: 14px 78px;
+    transition: all 0, 5s ease;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #B4436C;
+    transform: scale(1);
+}
+
+.main_1 {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 165px;
+}
+
+.next-2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48.41px;
+    color: #3E8989;
+    padding-bottom: 50px;
+}
+
+.container-1 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.foto-1 {
+    width: 545px;
+    height: 261px;
+    top: 1078px;
+    left: 165px;
+    color: #B5B5B5;
+}
+
+.text-0 {
+    padding-bottom: 59px;
+    color: #000000;
+    margin: 0 auto;
+
+}
+
+.text-2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    padding-bottom: 20px;
+
+}
+
+.text-3 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+
+}
+
+
+.next-0 {
+    color: #3E8989;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48.41px;
+    text-align: center;
+    padding-bottom: 53px;
+}
+
+
+
+.main_2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.boto-1 {
+    width: 263px;
+    height: 300px;
+    top: 1537px;
+    left: 165px;
+    background-color: #EFEFEF;
+    text-align: center;
+    padding: 1px 32px 2px 33px;
+}
+
+.foto-6 .box-4 {
+    width: 198px;
+    height: 297px;
+    top: 1538px;
+}
+
+.boto-1 h2 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    margin-top: 30px;
+}
+
+.boto-2 {
+    width: 263px;
+    height: 300px;
+    top: 1537px;
+    left: 448px;
+    background-color: #EFEFEF;
+    text-align: center;
+    padding: 77px 22px 78px 23px;
+}
+
+.foto-7 .box-5 {
+    width: 218px;
+    height: 145px;
+    top: 1614px;
+    left: 471px;
+}
+
+.boto-2 h2 {
+    color: #B4436C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    margin-top: 105px;
+}
+
+.boto-3 {
+    width: 263px;
+    height: 300px;
+    top: 1537px;
+    left: 730px;
+    background-color: #EFEFEF;
+    text-align: center;
+    padding: 75px 2px;
+}
+
+.foto-8 .box-6 {
+    width: 260px;
+    height: 150px;
+    top: 1612px;
+    left: 732px;
+
+}
+
+.boto-3 h2 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    margin-top: 105px;
+}
+
+
+
+.boto-4 {
+    width: 262px;
+    height: 300px;
+    top: 1537px;
+    left: 1013px;
+    background-color: #EFEFEF;
+    text-align: center;
+    padding: 19px 0;
+}
+
+.foto-9 .box-7 {
+    width: 262px;
+    height: 262px;
+    top: 1556px;
+    left: 1013px;
+}
+
+.boto-4 h2 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    margin-top: 45px;
+}
+
+.main_3 {
+    display: flex;
+    align-items: center;
+    gap: 350px;
+    margin-top: 100px;
+}
+
+.next-18 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48.41px;
+    color: #3E8989;
+}
+
+.next-19 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    color: #000000;
+    padding-top: 50px;
+}
+
+
+
+.next-20 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    padding-top: 120px;
+}
+
+.next-21 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    padding-top: 20px;
+}
+
+.footer_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #3E8989;
+    color: white;
+    text-align: center;
+    margin-top: 105px;
+    height: 150px;
+}
+
+.text-30 ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 165px 59px 165px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.96px;
+}
+
+.texa {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+   
+
+}
+
+.text-31 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+}
+
+.text-32 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+
+}
